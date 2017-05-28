@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(244, 248, 249);
+}
+
+.cuadro-principal {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(225, 232, 237);
+  padding: 30px;
+  border-radius: 5px;
+  height: 220px;
+  width: 1000px;
+}
+.profile-picture{
+  float: left;
+}
+.account-logo{
+  float: left;
+  position:relative;
+  left: 20px;
+}
+.username{
+  float: left;
+  position: relative;
+  left: 27px;
+  color:rgb(0, 0, 0);
+  font-size: 25px;
+}
+.validated-account{
+  display:inline-block;
+  position:relative;
+  left:42px;
+}
+.button {
+  display: inline-block;
+  float: right;
+  border: 2px solid rgb(85, 172, 238);
+  border-radius: 5px;
+  padding: 15px;
+  width: 175px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(85,172,238);
+  height: 60px;
+line-height: 1.5;
+}
+.follow{
+  display:inline-block;
+  position: relative;
+  bottom: 30px;
+  font-size: 25px;
+}
+.logo{
+  float: left;
+}
+.username2{
+  position: relative;
+  color:rgb(104, 109, 129);
+  left: 20px;
+  bottom:15px;
+  font-size: 20px;
+}
+.text{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+.date{
+  color:rgb(104, 109, 129);
+  font-size: 20px;
+}
+.reply{
+  display: inline-block;
+}
+.retweet{
+  position: relative;
+  left: 30px;
+}
+.number1{
+  display: inline-block;
+  position: relative;
+  color:rgb(104, 109, 129);
+  font-size: 20px;
+  left: 30px;
+}
+.favorite{
+  position: relative;
+  left: 60px;
+}
+.number2{
+  display: inline-block;
+  position: relative;
+  color:rgb(104, 109, 129);
+  font-size: 20px;
+  left: 60px;
+}
